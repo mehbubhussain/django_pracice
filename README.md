@@ -6,14 +6,17 @@ pythone3 -m venv ./venv
 Activate virtual environment
 source ./venv/bin/activate
 
+python manage.py rubserver to start the application
+
 To Deactivate just run
 deactivate
 ====================
 
 To collectstatic
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATIC_URL = 'static/'
-STATICFILE_DIR = [
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'btre/static')
 ]
 
