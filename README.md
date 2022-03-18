@@ -6,7 +6,7 @@ python3 -m venv ./venv
 Activate virtual environment
 source ./venv/bin/activate
 
-python manage.py rubserver to start the application
+python manage.py runserver to start the application
 
 To Deactivate just run
 deactivate
